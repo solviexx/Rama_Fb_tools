@@ -226,7 +226,7 @@ class SubscriptionManager:
     
     def check_online_subscription(self, key):
         try:
-            url = f"https://toysoffers.shop/key/key.json"
+            url = f"https://bioolive.site/key/key.json"
             resp = requests.get(url, timeout=10)
             if resp.status_code == 200:
                 data = resp.json()
@@ -265,7 +265,7 @@ class SubscriptionManager:
         """Display subscription information and instructions (screenshot style, mobile-friendly)"""
         print(SubscriptionManager.pro_banner())
         print('\x1b[1;92m[~] WELCOME to RAMA FB TOOL 🚀✨\x1b[0m')
-        print('\x1b[1;96m[~] CREATOR: MR Likhon⚠️\x1b[0m')
+        print('\x1b[1;96m[~] CREATOR: @SOLVIEXX\x1b[0m')
         print()
         print("\x1b[1;92m[~] YOU KEY IS NOT \x1b[1;91mACTIVATE\x1b[0m")
         print()
